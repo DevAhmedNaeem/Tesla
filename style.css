@@ -1,0 +1,570 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans";
+}
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+  color: white;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+h3 {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(92, 94, 98);
+}
+h4 {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgb(92, 94, 98);
+}
+.header {
+  display: flex;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  padding: 0px 32px 0px 32px;
+}
+.logo {
+  width: 130px;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  color: rgb(23, 26, 32);
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+ul li a {
+  color: rgb(23, 26, 32);
+  list-style: none;
+  padding: 6px 14px 6px 14px;
+  text-decoration: none;
+  transition: ease-in-out 0.3s;
+}
+ul li a:hover {
+  background: #f2f2f2;
+  padding: 6px 14px 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.head-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-icons img {
+  width: 28px;
+  height: 20px;
+  padding: 4px 2px 4px 2px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+.head-icons img:hover {
+  width: 28px;
+  height: 20px;
+  padding: 4px 2px 4px 2px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.main {
+  width: 100%;
+  background: url(Images/2.jpg) no-repeat center center/cover;
+  height: 75vh;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  text-align: center;
+  transition: ease-in 1s;
+  cursor: pointer;
+}
+.main:hover {
+  width: 100%;
+  background: url(Images/1.png) no-repeat center center/cover;
+}
+.main h1 {
+  margin-top: 50px;
+}
+.main span {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  width: 19%;
+  align-self: center;
+  border-bottom: 2px solid #f2f2f2;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.main-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+.order {
+  background-color: #3e6ae1;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  width: 200px;
+  height: 40px;
+  border: 4px solid #3e6ae1;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+.order:hover {
+  background-color: #1f409a;
+  color: white;
+  height: 40px;
+  width: 200px;
+  border: 4px solid #1f409a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.view {
+  background-color: #f2f2f2;
+  color: rgb(57, 60, 65);
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  width: 200px;
+  border: 4px solid #f2f2f2;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+.view:hover {
+  background-color: #cdcbcb;
+  color: rgb(57, 60, 65);
+  width: 200px;
+  height: 40px;
+  border: 4px solid #cdcbcb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.sedan {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 25px;
+  padding-bottom: 50px;
+}
+.cybertruck-img {
+  width: 250px;
+}
+.cars {
+  width: 600px;
+  height: 55vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-direction: column;
+  cursor: pointer;
+}
+#model3 {
+  background: url(Images/model3.png) no-repeat center center/cover;
+}
+#modelx {
+  background: url(Images/modelx.png) no-repeat center center/cover;
+}
+#utility {
+  background: url(Images/Cybertruck.png) no-repeat center center/cover;
+}
+#modely {
+  background: url(Images/Model\ Y.png) no-repeat center center/cover;
+}
+.or-btn {
+  background-color: #3e6ae1;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  width: 180px;
+  height: 40px;
+  border: 4px solid #3e6ae1;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+.or-btn:hover {
+  background-color: #1f409a;
+  color: white;
+  height: 40px;
+  width: 180px;
+  border: 4px solid #1f409a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ln-btn {
+  background-color: #f2f2f2;
+  color: rgb(57, 60, 65);
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  width: 180px;
+  border: 4px solid #f2f2f2;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+.ln-btn:hover {
+  background-color: #cdcbcb;
+  color: rgb(57, 60, 65);
+  width: 180px;
+  height: 40px;
+  border: 4px solid #cdcbcb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modely p {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.sedan-p {
+  border-bottom: 2px solid white;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: fit-content;
+}
+.section {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  height: 40vh;
+  gap: 25px;
+  padding-top: 40px;
+}
+.section-1 {
+  width: 620px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  height: 35vh;
+  display: flex;
+  justify-content: space-between;
+}
+.inner-section {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 20px 20px 20px;
+}
+.inner-section p {
+  color: rgb(92, 94, 98);
+  font-size: 20px;
+  font-weight: 400;
+}
+.inner-section h1 {
+  color: rgb(23, 26, 32);
+  font-size: 34px;
+  font-weight: 500;
+}
+.inner-section button {
+  background-color: #ffffff;
+  color: rgb(57, 60, 65);
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  width: 250px;
+  border: 4px solid #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+.inner-section button:hover {
+  background-color: #e6e4e4;
+  color: rgb(57, 60, 65);
+  width: 250px;
+  border: 4px solid #e6e4e4;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+.inner-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img-two {
+  width: 200px;
+  padding-right: 20px;
+}
+.img-three {
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+}
+.map {
+  display: flex;
+  justify-content: center;
+  padding: 20px 50px 60px 50px;
+}
+.map img {
+  cursor: pointer;
+}
+.charge-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  height: 30vh;
+}
+.first-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.second-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.first-conttxt h2 {
+  color: rgb(23, 26, 32);
+}
+.first-conttxt p {
+  color: rgb(82, 84, 87);
+  font-weight: 400;
+}
+.first-cont-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.first-cont-btn :nth-child(1) {
+  background-color: #111318;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  width: 150px;
+  border: 4px solid #111318;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+.first-cont-btn :nth-child(2) {
+  background-color: #efefef;
+  color: #111318;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  width: 150px;
+  border: 4px solid #efefef;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in 0.3s;
+}
+.superchargers :nth-child(1) {
+  display: flex;
+  gap: 5px;
+}
+.superchargers img {
+  width: 40px;
+}
+.superchargers h2 {
+  color: rgb(23, 26, 32);
+}
+.superchargers p {
+  color: rgb(92, 94, 98);
+}
+.sedan-solar {
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.boxes {
+  width: 600px;
+  height: 55vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-direction: column;
+  cursor: pointer;
+}
+#solar {
+  background: url(Images/Solar\ Panel.png) no-repeat center center/cover;
+}
+#pw {
+  background: url(Images/Power\ Wall.png) no-repeat center center/cover;
+}
+#sr {
+  background: url(Images/Solar\ walls.png) no-repeat center center/cover;
+}
+#mp {
+  background: url(Images/Mega\ Pack.jpg) no-repeat center center/cover;
+}
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 100px 40px 100px;
+}
+#footer-text-h3 {
+  text-align: center;
+  line-height: 24px;
+}
+.footer-text-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.bottom-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 40px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 0px;
+  padding: 8px 0px 8px 0px;
+  position: sticky;
+  bottom: 0;
+}
+.bottom-section div {
+  background-color: #ededed;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+}
+@media only screen and (max-width: 600px) {
+  .main {
+    height: 50vh;
+    width: 100vw;
+  }
+  /* .cars{
+    height: 35vh;
+  } */
+  .sedan {
+    padding: 60px 10px 20px 10px;
+    width: 94%;
+  }
+  .mod-btn :nth-child(1) {
+    width: 160px;
+  }
+  .main span {
+    font-size: 20px;
+    width: 60vw;
+  }
+  .main-btn :nth-child(1) {
+    width: 170px;
+  }
+  .main-btn :nth-child(2) {
+    width: 170px;
+  }
+  .header ul {
+    display: none;
+  }
+  .sedan-p {
+    border-bottom: 0px;
+  }
+  .section {
+    flex-direction: column;
+    margin-top: 120px;
+    padding-bottom: 250px;
+  }
+  .section-1 {
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+  }
+  .inner-section {
+    text-align: center;
+  }
+  .inner-section button {
+    align-self: center;
+  }
+  .second-cont {
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 40px;
+  }
+  .map img {
+    max-width: 100%;
+    min-height: 50vh;
+    object-fit: cover;
+  }
+  .img-three {
+    height: 22vh;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 0px 0px 6px 6px;
+  }
+  .map {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 60px 10px;
+  }
+  .charge-main {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px 20px 10px;
+    text-align: center;
+  }
+  .first-conttxt h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .first-conttxt p {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .first-conttxt {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .first-cont-btn {
+    justify-content: center;
+  }
+  .second-cont {
+    flex-direction: row;
+    padding-top: 40px;
+  }
+  .footer-text {
+    padding: 80px 50px 40px 50px;
+  }
+  .superchargers :nth-child(1) {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  #footer-text-h3 {
+    font-size: 16px;
+  }
+  .footer-text-list ul{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  h4{
+    font-size: 16px;
+  }
+}
