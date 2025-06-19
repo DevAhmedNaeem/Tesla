@@ -12,9 +12,16 @@
 
 ## 📸 Project Preview
 
-![Tesla Clone Screenshot](preview.png)
+![Tesla Clone Screenshot]
 
-> ℹ️ *Replace `preview.png` with a screenshot or GIF of your project.*
+> ![image](https://github.com/user-attachments/assets/1143f6f1-9f17-44e7-a2a0-ede0f1ea3e05)
+> ![image](https://github.com/user-attachments/assets/e63f601a-3f4f-4ff6-84df-19019e4801ce)
+> ![image](https://github.com/user-attachments/assets/1d316daa-2ef9-4c53-920c-e8bde59bfdc7)
+> ![image](https://github.com/user-attachments/assets/fb8b4b8d-17fa-4246-bdc8-c91f55796ef2)
+
+
+
+
 
 ---
 
