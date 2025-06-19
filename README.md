@@ -2,9 +2,10 @@
 <p align="center">
   A fully responsive and pixel-perfect Tesla homepage clone built using only HTML and CSS.
   <br><br>
-  <img src="https://img.shields.io/badge/Responsive%20Design-✅-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/Mobile%20Friendly-100%25-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Built%20With-HTML5%20%26%20CSS3-orange?style=flat-square" />
+ <p align="center">
+  <img src="https://img.shields.io/badge/Responsive%20Design-%E2%9C%85-28a745?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mobile%20Friendly-100%25-007BFF?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  <img src="https://img.shields.io/badge/Built%20With-HTML5%20%26%20CSS3-FF5722?style=for-the-badge&logo=html5&logoColor=white" />
 </p>
 
 ---
