@@ -495,6 +495,7 @@ ul li a:hover {
     border-bottom: 0px;
   }
   .section {
+    display: none;
     flex-direction: column;
     margin-top: 120px;
     padding-bottom: 250px;
@@ -504,6 +505,7 @@ ul li a:hover {
     width: 400px;
     align-items: center;
   }
+  
   .inner-section {
     text-align: center;
   }
@@ -579,5 +581,9 @@ ul li a:hover {
 }
 .bottom-section {
   padding: 8px 10px 8px 10px;
+}
+.superchargers p {
+    font-size: 16px;
+    text-align: start;
 }
 }
