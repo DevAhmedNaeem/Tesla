@@ -461,6 +461,10 @@ ul li a:hover {
     height: 50vh;
     width: 100vw;
   }
+  .mod-btn {
+    display: flex;
+    gap: 10px;
+  }
   /* .cars{
     height: 35vh;
   } */
@@ -471,8 +475,11 @@ ul li a:hover {
   .mod-btn :nth-child(1) {
     width: 160px;
   }
+  .mod-btn :nth-child(2) {
+    width: 160px;
+  }
   .main span {
-    font-size: 20px;
+    font-size: 18px;
     width: 60vw;
   }
   .main-btn :nth-child(1) {
@@ -560,11 +567,17 @@ ul li a:hover {
   #footer-text-h3 {
     font-size: 16px;
   }
-  .footer-text-list ul{
+  .footer-text-list ul {
     justify-content: center;
     flex-wrap: wrap;
   }
-  h4{
+  h4 {
     font-size: 16px;
   }
+  .bottom-section div {
+  padding: 10px;
+}
+.bottom-section {
+  padding: 8px 10px 8px 10px;
+}
 }
